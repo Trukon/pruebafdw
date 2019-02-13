@@ -3,20 +3,21 @@ body {
 }
 
 header {
-  background-image: url('../img/bg_hero2.jpg');
+  background-image: url('../img/bg_hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 30rem;
 }
 
-#yo-soy {
+#yo_soy {
   vertical-align: middle;
   font-family: 'Poppins';
 }
 
-#contacto {
+#título {
   font-family: 'Poppins';
+  vertical-align: middle;
 }
 
 footer {
