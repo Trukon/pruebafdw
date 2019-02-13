@@ -16,22 +16,50 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
-      <a class="navbar-brand" href="#">Rodrigo Ponce</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <a class="navbar-brand text-white" href="#">Rodrigo Ponce</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active text-dark" href="#">Sobre mí <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link text-dark" href="#">Trabajos</a>
-          <a class="nav-item nav-link text-dark" href="#">Experiencia</a>
-          <a class="nav-item nav-link text-dark" href="#">Contacto</a>
+          <a class="nav-item nav-link active text-warning" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-warning" href="#">Trabajos</a>
+          <a class="nav-item nav-link text-warning" href="#">Experiencia</a>
+          <a class="nav-item nav-link text-warning" href="#">Contacto</a>
         </div>
       </div>
     </nav>
 
-    <div class="container">
+
+    <div id="yo-soy" class="container mt-5 pt-4">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img class="img-fluid" src="assets/img/bg_hero.jpg" alt="foto-principal">
+        </div>
+
+        <div class="col-md-6 col-sm-12 text-center">
+          <h1 class="display-4">Yo</h1>
+          <h1 class="display-4">soy</h1>
+          <h1 class="display-4">Rodrigo</h1>
+          <button type="button" class="btn btn-light btn-outline-dark mt-5 mx-3">Ver CV</button>
+          <button type="button" class="btn btn-light btn-outline-dark mt-5 mx-3 text-center">Ver galería fotográfica</button>
+        </div>
+      </div>
+    </div>
+
+<!--
+    <header class="hero text-light text-center pt-5 mt-5">
+      <div class="container">
+        <h1 class="font-weight-bold my-5">Yo soy Rodrigo</h1>
+        <a href="#work" class="btn btn-outline-info mr-4">Ver CV</a>
+        <a href="#contact" class="btn btn-info">Ver galería fotográfica</a>
+      </div>
+    </header>
+-->
+
+
+    <div class="container mt-5 pt-4">
       <div class="row">
         <div class="col">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -49,34 +77,71 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-    <div class="card-deck bg-dark">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="container-fluid pt-5 mt-5 bg-dark">
+     <h2 class="text-center text-light">Mis trabajos</h2>
+     <hr>
+     <h2 class="text-center text-light">Desafío LATAM</h2>
+     <div class="card-deck">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">Meet & Coffee</h4>
+                <h6 class="card-text font-weight-light">Descubre lo último en técnología bebiendo café.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">Iguanas</h4>
+                <h6 class="card-text font-weight-light">Ven a conocer más sobre este increíble animal.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">Suricata</h4>
+                <h6 class="card-text font-weight-light">La mejor tienda de comida en Santiago.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">CUPPON</h4>
+                <h6 class="card-text font-weight-light">Descubre inmejorables ofertas.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">Ricomida</h4>
+                <h6 class="card-text font-weight-light">Deliciosas recetas para preparar en tu hogar.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title font-weight-light">DMark</h4>
+                <h6 class="card-text font-weight-light">Tu marca, es tu verdadera identidad.</h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer id="contacto" class="bg-info p-3 text-center">
+    <footer id="contacto" class="container-fluid bg-info p-3 text-center">
       <h5 class="text-center">Contacto</h5>
       <a href="#"></a><i class="fas fa-envelope fa-3x mx-3"></i>
       <a href="#"></a><i class="fab fa-instagram fa-3x mx-3"></i>
