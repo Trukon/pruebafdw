@@ -1,12 +1,13 @@
 body {
-  font-family: 'Raleway'
+  font-family: 'Raleway';
 }
 
 header {
-  background-image: url('../img/bg_hero.jpg');
+  background-image: url('../img/bg_hero2.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  padding-bottom: 30rem;
 }
 
 #yo-soy {
@@ -15,7 +16,7 @@ header {
 }
 
 #contacto {
-  font-family: 'Poppins'
+  font-family: 'Poppins';
 }
 
 footer {
