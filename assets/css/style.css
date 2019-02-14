@@ -1,5 +1,11 @@
 body {
   font-family: 'Raleway';
+  background-color: #ffffff;
+}
+
+hr {
+  width: 20rem;
+  color: #000000;
 }
 
 header {
@@ -15,11 +21,7 @@ header {
   font-family: 'Poppins';
 }
 
-#título {
+#título_nav, #título_hero1, #título_hero2, #título_trabajos_1, #título_trabajos_2, #título_experiencia, #sobre_mí, #título_mis_fotos  {
   font-family: 'Poppins';
   vertical-align: middle;
-}
-
-footer {
-  width: 100%;
 }
